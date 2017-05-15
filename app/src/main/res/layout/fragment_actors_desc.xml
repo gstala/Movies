@@ -7,8 +7,8 @@ android:id="@+id/root"
 android:stretchColumns="*">
 <TableRow android:layout_margin="0dip"
     android:layout_weight="1"
-    android:gravity="center">
-    android:id="@+id/first_row"
+    android:gravity="center"
+    android:id="@+id/firstRow"
     >
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -26,14 +26,14 @@ android:stretchColumns="*">
         android:id="@+id/actorTextView1"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:textColor="@color/title"/>
 
 </TableRow>
 <TableRow android:layout_margin="0dip"
     android:layout_weight="1"
-    android:gravity="center">
-    android:id="@+id/second_row">
+    android:gravity="center"
+    android:id="@+id/secondRow">
 
     <de.hdodenhof.circleimageview.CircleImageView
         android:id="@+id/actor_circleImage2"
@@ -50,14 +50,14 @@ android:stretchColumns="*">
         android:id="@+id/actorTextView2"
         android:textStyle="bold"
         android:textSize="18sp"
-        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
         android:textColor="@color/title"/>
 
 </TableRow>
     <TableRow android:layout_margin="0dip"
         android:layout_weight="1"
-        android:gravity="center">
-        android:id="@+id/third_row">
+        android:gravity="center"
+        android:id="@+id/thirdRow">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/actor_circleImage3"
@@ -74,7 +74,7 @@ android:stretchColumns="*">
             android:id="@+id/actorTextView3"
             android:textStyle="bold"
             android:textSize="18sp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:textColor="@color/title"/>
 
     </TableRow>
